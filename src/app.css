@@ -1,0 +1,23 @@
+html,
+body {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #f6f6f6;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.row {
+    width: calc(100% + 16px);
+    margin: 0 -8px;
+    display: flex;
+}
+
+.col {
+    padding: 0 8px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
